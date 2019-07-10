@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 0.0.1)
-project(FACTER VERSION 0.0.1)
+project(FACTER VERSION 9.9.9)
 
 # Set this early, so it's available. AIX gets weird, man.
 if("${CMAKE_SYSTEM_NAME}" MATCHES "AIX")
